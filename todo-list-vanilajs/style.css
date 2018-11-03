@@ -1,0 +1,88 @@
+body {
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 10pt;
+}
+
+h1 {
+  font-weight: 200;
+  text-align: center;
+}
+.addlist {
+  text-align: center;
+}
+
+#btnAdd {
+  font-weight: 100;
+  border: 1px solid #D7D9D9;
+  background: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  border: 1px solid #ffffff;
+  background: #D7D9D9;
+  padding: 5px 10px;
+}
+
+.checked{
+  text-decoration: line-through;
+}
+
+.list-wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.todolist-wrap{
+  margin: 0 5px;
+  flex: 0.5;
+}
+#todolist li{
+  display: flex;
+  flex-direction: row;
+}
+#todolist span{
+  flex: 0.95;
+}
+#todolist button{
+  border: 1px solid #ffffff;
+  background: none;
+  color: lightslategray;
+  margin: 1px;
+  flex: 0.05;
+  visibility: hidden;
+}
+
+.donelist-wrap{
+  margin: 0 5px;
+  flex: 0.5;
+}
+.donelist-wrap ul li{
+  background: #3B3C41 ;
+}
+#donelist li{
+  display: flex;
+  flex-direction: row;
+}
+#donelist span{
+  flex: 0.95;
+  text-decoration: line-through;
+  font-style: italic;
+  color: white;
+}
+#donelist button{
+  border: 1px solid #ffffff;
+  background: none;
+  color: lightslategray;
+  margin: 1px;
+  flex: 0.05;
+  visibility: hidden;
+}
